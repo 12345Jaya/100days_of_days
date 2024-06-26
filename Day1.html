@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Day1.css" type="text/css">
+    <script src="Day1.js"></script>
+</head>
+<body>
+    <div id="big_container">
+        <div id="title"><h2>Tip Calculator</h2></div>
+        <div id="container">
+            <h4 class="heading">Please enter the amount of your bill:</h4>
+            <h4 class="heading">Rs.<input type="number" id="bill" value="0"></h4>
+            <h4 class="heading">How was your service?</h4>
+            <select id="tip">
+                <option value="peak">35%-Peaks</option>
+                <option value="ok" selected>25%-Ok ok</option>
+                <option value="not bad">15%-Not Bad</option>
+                <option value="worst">10%-Worst</option>
+                <option value="bull_shit">5%-Bull shit hotel</option>
+            </select>
+            <h4 class="heading">How many people are sharing the bill?</h4>
+            <input id="input" type="number" value="0">
+            <button id="button" onclick="my_fun()">Calculate</button>
+            <div id="ans"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+#big_container{
+    background-color: rgb(237, 233, 228);
+    width:550px;
+    height:400px;
+    margin:auto;
+    align-items:center;
+    border-radius:10px;
+    box-shadow: 3px 3px 3px 3px rgb(142, 139, 139);
+}
+#title{
+    padding-top:10px;
+    text-align:center;
+}
+#container{
+    padding-top:2px;
+}
+.heading{
+    text-align:center;
+    font-weight: 100;
+}
+#tip{
+    margin-left:215px;
+}
+#input{
+    margin-left:150px;
+}
+#ans{
+    text-align:center;
+}
